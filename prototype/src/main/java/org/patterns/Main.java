@@ -1,6 +1,8 @@
 package org.patterns;
 
-import java.util.UUID;
+import org.patterns.domain.Button;
+import org.patterns.domain.User;
+import org.patterns.prototype.PrototypeRegistry;
 
 public class Main {
     public static void main(String[] args) {

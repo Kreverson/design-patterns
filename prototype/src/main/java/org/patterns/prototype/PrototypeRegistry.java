@@ -1,4 +1,4 @@
-package org.patterns;
+package org.patterns.prototype;
 
 import java.util.HashMap;
 
@@ -15,7 +15,6 @@ public class PrototypeRegistry {
 
     public Prototype getById(String id) {
         return components.get(id).clone();
-
     }
 
 }

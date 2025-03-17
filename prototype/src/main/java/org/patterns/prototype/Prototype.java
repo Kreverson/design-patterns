@@ -1,4 +1,4 @@
-package org.patterns;
+package org.patterns.prototype;
 
 public interface Prototype {
     Prototype clone();

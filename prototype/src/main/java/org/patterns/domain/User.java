@@ -1,4 +1,6 @@
-package org.patterns;
+package org.patterns.domain;
+
+import org.patterns.prototype.Prototype;
 
 import java.util.UUID;
 
