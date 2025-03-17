@@ -14,5 +14,16 @@ public class Main {
 
         System.out.println(user);
         System.out.println(userClone);
+
+
+        Button confirmButton = new Button(10, 20, "green");
+        Button deleteButton = new Button(10, 30, "red");
+
+        PrototypeRegistry registry = new PrototypeRegistry();
+        registry.addItem("confirmButton", confirmButton);
+        registry.addItem("deleteButton", deleteButton);
+
+        System.out.println(registry.getById("confirmButton"));
+        System.out.println(registry.getById("deleteButton"));
     }
 }
