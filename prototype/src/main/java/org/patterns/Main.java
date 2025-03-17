@@ -1,0 +1,18 @@
+package org.patterns;
+
+import java.util.UUID;
+
+public class Main {
+    public static void main(String[] args) {
+
+        User user = new User(
+                "username1",
+                "1@11.com.br",
+                "Ys!ao2");
+
+        User userClone = (User) user.clone();
+
+        System.out.println(user);
+        System.out.println(userClone);
+    }
+}
